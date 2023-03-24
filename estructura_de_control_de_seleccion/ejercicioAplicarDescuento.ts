@@ -19,4 +19,5 @@ porcentajeDescuento= (subTotal*0.1);
 precioFinal =(subTotal-porcentajeDescuento);
 console.log("cantidad de producto 1:",cantidadProducto1, "|ncantidad de producto 2:", cantidadProducto2, "|subtotal:",subTotal);
 
-if (subTotal<1000) {console.log ("usted ahorra:",porcentajeDescuento, "el precio final es de:",precioFinal);}
+if (subTotal>1000) {console.log ("usted ahorra:",porcentajeDescuento, "el precio final es de:",precioFinal);}
+else { precioFinal<=subTotal; console.log ("gracias por confiar en nosotros, el precio final es de:",subTotal);}

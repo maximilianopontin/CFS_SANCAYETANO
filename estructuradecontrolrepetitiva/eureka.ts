@@ -15,7 +15,7 @@ directamente del programa
 */
 
 
-const claveCorrecta:string="eureka";
+/* const claveCorrecta:string="eureka";
 let intentos:number=3 
 
 
@@ -24,4 +24,15 @@ while (intentos > 0 ) { let contrasena:string=rls.question ("ingrese su contrase
     break;
     }  else (intentos--); console.log (" contrasena incorrecta, le quedan",intentos, "intentos");} 
     if (intentos==0){console.log("has agotado todas las oportunidades");}
+    */
+
+    const claveCorrecta:string="eureka";
+    let intentos:number=0;
+    let contrasena:string=rls.question ("ingrese su contrasena por favor:");
+    
+    while (contrasena!==claveCorrecta && intentos <3){console.log ("contrasena incorrecta, vuelve a ingresarla") ;
+    contrasena=rls.question ("ingrese su contrasena por favor:"); intentos = intentos + 1;
+
+        }  if (contrasena==claveCorrecta){console.log (" contrasena correcta, ingreso permitido");
+    } else console.log("contraseña incorrecta, has agotado todas las oportunidades");
     

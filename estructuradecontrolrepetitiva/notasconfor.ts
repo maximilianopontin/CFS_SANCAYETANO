@@ -1,4 +1,4 @@
-/* import * as rls from ‘readline-sync’;
+import * as rls from "readline-sync";
 
 let nota, suma, promedio, contador : number;
 suma=0;
@@ -8,4 +8,4 @@ suma +=nota;
 }
 promedio = suma/10;
 console.log("El promedio de las notas es: " + promedio);
-*/
+

@@ -1,7 +1,7 @@
-/*
-Calcular el Promedio de 10 Notas
 
-import * as rls from ‘readline-sync’;
+/*Calcular el Promedio de 10 Notas*/
+
+import * as rls from "readline-sync";
 
 let nota, suma, promedio, contador : number;
 contador =1;
@@ -13,4 +13,3 @@ contador = contador +1;
 }
 promedio = suma/10;
 console.log("El promedio de las notas es: " + promedio);
-*/

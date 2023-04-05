@@ -8,8 +8,10 @@ multiplicación, el usuario también deberá ingresar dicho valor
 import * as rls from "readline-sync";
 
 let num :number =rls.questionInt ("ingrese el numero de la tabla: ");
-let numFinal:number =rls.questionInt ("ingrese hasta que numero desea multiplicar: ");
+let numLimite:number =rls.questionInt ("ingrese hasta que numero desea multiplicar: ");
+let result:number 
 
-
-for (let i :number = 1; i <=numFinal; i++) {console.log (num , "x",  i , "=" ,num * i  
+for (let i :number = 0; i <=numLimite; i++) 
+{result= num * i; 
+    console.log (num , "x",  i , "=" , result  
 );}

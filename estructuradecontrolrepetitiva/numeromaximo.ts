@@ -9,14 +9,20 @@ Ingrese número: 7
 Ingrese número: -1
 Ingrese número: 1
 Ingrese número: 0
+
 */
 
 import * as rls from "readline-sync";
-let num1:number=1
-let valormax=0
 
-while (num1 !=0){
-    num1=rls.questionInt ("ingrese un numero:"); 
-    if (num1 > valormax && valormax !=0){num1=valormax;
-    } console.log ("el numero maximo es",valormax);  
-}
+let num:number=1;
+let valormax=0;
+
+while (num !==0){
+    num=rls.questionFloat ("ingrese un numero:");
+   if (num > valormax )
+   valormax=num;
+} console.log ("el numero maximo es el :", valormax);
+ 
+/* para hallar el numero minimo deberiamos cambiar el nombre de la variable 
+de valormax a valormin todas las veces que la usemos y cambiar el sigo de mayor a menor */
+

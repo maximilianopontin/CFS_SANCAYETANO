@@ -1,13 +1,14 @@
 /* realice un programa que devuelva el area del triangulo usando los siguientes pares de base-altura:
 1,2 2,4 3,6  4,8 5,10 6,12 7,14. implemente un metodo llamado calcularareatriangulo que reciba 
-dos numeros por parametro uno llamado base y otro altura */
+dos numeros por parametro uno llamado base y otro altura 
+
+LAS VARIABLES CONVIENE DECLARARLAS DENTRO DE LA FUNCION */
 
 
 import * as rls from "readline-sync";
 
-let area:number=1 ;
 function calcularAreaTriangulo (base:number, altura: number): number {
-    area = (base * altura)/ 2
+    let area:number = (base * altura)/ 2
   return area;
 
 } {let area = calcularAreaTriangulo (rls.questionInt (" ingrese la base del triangulo: "),rls.questionInt ("ingrese la altura del triangulo: "));

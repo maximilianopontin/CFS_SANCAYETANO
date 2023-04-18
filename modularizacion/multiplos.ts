@@ -5,12 +5,9 @@ recuerde que la operacion MOD permite saber si el resto de una division es 0
 
 import * as rls from "readline-sync";
 
-function esMultiplo (primerNum: number, segundoNum: number): boolean 
-{ if ( primerNum % segundoNum == 0) {
-return true} 
-return false
- ; 
+function esMultiplo (primerNum: number, segundoNum: number): boolean { 
+    if ( primerNum % segundoNum == 0) {
+        return true} 
+        return false; 
 }
-{console.log (esMultiplo (rls.questionInt ("ingrese el primer numero: "),rls.questionInt ("ingrese el segundo numero: ")) )
-;
-}
+console.log(esMultiplo(rls.questionInt ("ingrese el primer numero dividendo: "),rls.questionInt ("ingrese el segundo numero divisor: ")));

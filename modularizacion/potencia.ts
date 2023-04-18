@@ -13,10 +13,11 @@ let exponente:number = rls.questionInt ("ingrese exponente: ");
 
 function calcularPotencia (base:number, exponente:number):number {
     resultado = (base ** exponente)
-    return resultado;
-}
-{ if (exponente >=0) {calcularPotencia (base,exponente);
-console.log ("el resultado de la potencia es: ", resultado)
-} else {console.log ("error al ingresar el exponente, ingrese un numero igual o mayor a 0");
+        return resultado;
+}  { 
+    if (exponente >=0) {calcularPotencia (base,exponente);
+        console.log ("el resultado de la potencia es: ", resultado)
+        } else {console.log ("error al ingresar el exponente, ingrese un numero igual o mayor a 0");
 
-}}
+                }
+    }  

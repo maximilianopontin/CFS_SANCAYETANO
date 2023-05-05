@@ -21,10 +21,13 @@ let salaCine: boolean [] =
 
 function contarButacasDes (salaCine : boolean []):number {
     let butacasDes: number= 0;
+    let butacasOcupadas: number =0;
     for (let i:number=0 ; i < salaCine.length ; i++){
-        if (!salaCine [i] ){ 
-        butacasDes ++;
+        if (salaCine [i] == false){ 
+        butacasDes ++;}
+        else {butacasOcupadas ++;
         }
+        
     }
 return butacasDes; 
     

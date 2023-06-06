@@ -1,0 +1,9 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* view height vista de altura- view widht vista de ancho */
+}
+.carousel-inner {
+    width: 30vw;
+}

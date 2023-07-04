@@ -6,7 +6,7 @@ document.getElementById("agregar-reserva").addEventListener("click", agregarRese
 //Dentro de esta función, se obtiene el valor de la reserva ingresada en el campo de entrada (reservaInput)
 function agregarReserva() {
     var reservaInput = document.getElementById("reserva");/*buscamos en el documento el id que tenga el elemento reserva */
-    var reservaText = reservaInput.value.trim(); 
+    var reservaText = reservaInput.value.trim();  
     console.log(reservaText);/*muestra valor que escribimos en el placeholder */
     console.log(reservaInput);/*muestra todo lo que esta en el input */
 

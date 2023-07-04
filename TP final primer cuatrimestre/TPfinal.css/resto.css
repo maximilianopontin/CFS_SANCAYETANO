@@ -36,11 +36,13 @@ body {
   }
   
   h1 {
-    padding-left: 15px;
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    width: 80%;
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: oblique;
     text-align: center;
+    text-decoration: overline;
   }
   
   .carousel-inner {

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva Tu Mesa</title>
+  <link rel = "stylesheet" type="text/css" href="../TPfinal.css/reserva.css">
+  <link rel= "shortcut icon" href="../imagenes/favicon.jpg" type="image/x-icon">
+  
+</head>
+
+<body>
+  <nav>
+    <a href="../TPfinal.html/resto.html" >INICIO</a>
+  </nav>
+  
+   
+    <h1>HACE TU RESERVA</h1>
+    <img src="../imagenes/rojofuego.jpg" alt="logo parrilla" >
+    <h2> Completá El Siguiente Formulario Con Tus Datos</h2>
+    
+    <form action="">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" name="fecha" required>
+      
+      <label for="hora">Hora:</label>
+      <input type="time" id="hora" name="hora" required>
+      
+      <label for="personas">Número de Personas:</label>
+      <input type="number" id="personas" name="personas" min="1" required>
+    
+    
+      <input type="submit" value="Confirmar Reserva"> 
+      <input type="reset" value="Borrar Formulario">
+    </form>
+
+    <dialog id="ventanaReserva"> <!-- ventana emergente en la interfaz de usuario.-->
+      <h3>Reserva Confirmada</h3>
+      <button id="botonVentana">close</button> <!--mantiene cerrada la ventana emergente -->
+    </dialog>
+
+    <script type="text/javascript" src="../TPfinal.js/reserva.js"></script>
+</body>
+</html>
+
+  
